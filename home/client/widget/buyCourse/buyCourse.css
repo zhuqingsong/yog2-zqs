@@ -1,0 +1,128 @@
+html {
+  height:100%;
+}
+body{
+  height:100%;
+  padding-top:5.7rem;
+  position:relative;
+}
+.cd_detail_top{
+    position:absolute;
+    left:0;
+    top:0;
+    height:5.7rem;
+    width:100%;
+}
+.cd_top{
+    height:3rem;
+    width:100%;
+}
+.cd_top img{
+  width:100%;
+  height:100%;
+}
+.cd_title{
+  padding:.42rem .22rem .25rem;
+}
+.cd_title .s1{
+  display:block;
+  font-size: .32rem;
+  line-height:.32rem;
+  color:#000;
+  padding-left:.1rem;
+}
+.cd_title .s2{
+  display:block;
+  font-size:.36rem;
+  line-height:.36rem;
+  color:#ec6941;
+  margin-top:.22rem;
+}
+.cd_full{
+  height:.12rem;
+  background-color:#f2f2f2;
+}
+.cd_detail_box{
+  background-color: #f8dbaf;
+  height:1rem;
+  display: flex;
+  position:relative;
+}
+
+.cd_detail_box a{
+  display:block;
+  flex:1;
+  color:#000;
+  text-align:left;
+  font-size: .3rem;
+  line-height: 1rem;
+  padding:0 .7rem;
+}
+.cd_detail_box a.active{
+    color:#ec6941;
+}
+.cd_detail_box .line{
+    height:2px;
+    background-color:#f2a278;
+}
+
+.cd_detail_content{
+    height:100%;
+    padding-bottom:1rem;
+    overflow-y:auto;
+}
+
+.cd_detail_content ul li{
+    height:1.19rem;
+    padding:.4rem .25rem .15rem .3rem;
+    border-bottom:1px solid #000;
+}
+
+.cd_detail_content ul li .a1{
+  display:block;
+  height:100%;
+  background:url('/client/static/imgs/stop.png') no-repeat right center;
+  background-size:auto 100%;
+}
+
+.cd_detail_content ul li .a1 .p1{
+   color:#5e5e5e;
+   font-size:.32rem;
+   line-height:.32rem;
+}
+
+.cd_detail_content ul li .a1 .p2{
+   color:#c7a269;
+   font-size:.24rem;
+   line-height:.24rem;
+   margin-top:.15rem;
+}
+
+.cd_teach_pay{
+    width:100%;
+    position:absolute;
+    left:0;
+    bottom:0;
+    height:1rem;
+    padding:.2rem .2rem .2rem .6rem;
+    background-color: #eee;
+    display:flex;
+}
+.cd_teach_pay .pay_s1{
+    line-height:.6rem;
+    display:block;
+    flex:1;
+    color:#ec6941;
+    font-size:.36rem;
+}
+.cd_teach_pay .pay_s2{
+    display:block;
+    width:1.55rem;
+    height:.6rem;
+    border-radius:.1rem;
+    color:#fff;
+    text-align:center;
+    line-height:.6rem;
+    font-size:.3rem;
+    background-color:#ec6941;
+}

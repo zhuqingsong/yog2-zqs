@@ -1,0 +1,132 @@
+html, body, .wrap{
+  height:100%;
+  width:100%;
+}
+.wrap-header{
+    width:100%;
+    height:6.626667rem;
+    background-color:#fff;
+}
+.study-tit{
+   width:100%;
+   background-color: #f0eff2;
+   padding:0.226667rem 0!important; 
+   height:1.626667rem;
+   box-sizing: border-box;
+}
+
+.scorll-view{
+  width:2.4rem;
+  text-align: center;
+  font-size: 0.426667rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.scorll-view.bg1{
+  background-color: #f3b160
+}
+
+.wrap-content{
+    width:100%;
+    display:block;
+    position:absolute;
+    top:6.626667rem; 
+    left:0;
+    right:0;
+    bottom:0;
+    z-index:1;
+    height:auto;
+    overflow: hidden;
+    overflow-y: auto;
+    box-sizing: border-box;
+    padding-bottom:1.333333rem;
+}
+.wrap-content.hide{
+    display:none;
+}
+.study-content{
+    width:100%;
+    height:100%;
+    background-color: #f3f5f6;
+    display:block;
+    overflow-y:auto;/* winphone8和android4+ */
+    -webkit-overflow-scrolling: touch; /* ios5+ */
+}
+
+.study-content dl {
+      margin-bottom:0.2rem;
+      overflow: hidden;
+      background-color: #fff;
+      padding:0.16rem 0.293333rem;
+}
+.study-content dt{
+    font-size:0.426667rem;
+    height:0.84rem;
+    border-bottom:1px solid #e4e2e7;
+    line-height:.84rem;
+    margin-bottom:0.106667rem;
+    color:#000;
+}
+
+.study-content dd.lgbox{
+   display:flex;
+}
+
+.study-content .lgbox  span.lef{
+    width:4.106667rem;
+    height:2.053333rem;
+    display:block;
+    margin-right:0.533333rem
+}
+
+.study-content .lgbox span.lef img{
+  width:100%;
+  height:100%;
+}
+
+.study-content .lgbox span.rig{
+    flex:1;
+    height:2.053333rem;
+    font-size:0.32rem;
+    color:#8d8d8d;
+    padding-top:0.24rem;
+    position:relative;
+}
+
+.study-content .lgbox span.rig  em{
+    font-style:normal;
+    color:#e2bc96;
+}
+
+.study-content .lgbox .pri{
+   width:auto;
+   height:0.533333rem;
+   line-height:0.533333rem;
+   position:absolute;
+   right:0;
+   bottom:0;
+   color:#e82828;
+   display:block;
+   font-size:0.453333rem;
+   font-weight:500;
+}
+
+.study-content .lgbox .pri i{
+  font-style:normal;
+  color:#cacaca;
+  font-size:0.32rem;
+  font-weight:500;
+  text-decoration:line-through ;
+}
+

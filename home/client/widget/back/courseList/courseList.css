@@ -1,0 +1,30 @@
+body{
+	width:96%;
+	height:96%;
+	background-color:#fff;
+	margin:2%;
+}
+
+.box-form{
+	padding:30px;
+}
+
+.ds-inline{
+	display: inline-block;
+}
+
+.up-img{
+	height:50px;
+	line-height: 50px;
+}
+
+.up_img_show{
+	width:auto;
+	height:50px;
+	margin-left:20px;
+}
+
+.add-box{
+	display: block;
+	margin-bottom:10px;
+}

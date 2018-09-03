@@ -1,0 +1,58 @@
+{
+  "name": "doctor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "debug-win": "set NODE_DEBUG=yog/dispatcher,yog/loader,yog/plugins,yog/recv-reload&set YOG_DEBUG=true&node app.js",
+    "debug": "env NODE_DEBUG=yog/dispatcher,yog/loader,yog/plugins,yog/recv-reload YOG_DEBUG=true node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fex-team/yog2.git"
+  },
+  "author": "fis@baidu.com",
+  "license": "BSD",
+  "dependencies": {
+    "async": "^2.6.0",
+    "body-parser": "^1.13.3",
+    "crypto-js": "3.1.9-1",
+    "debuglog": "1.0.1",
+    "ejs": "^2.5.1",
+    "excel-export": "^0.5.1",
+    "express": "^4.14.0",
+    "express-domain-middleware": "^0.1.0",
+    "express-session": "^1.15.6",
+    "fis-optimizer-clean-css": "*",
+    "fis-optimizer-html-compress": "*",
+    "fis-optimizer-uglify-js": "*",
+    "fis-parser-node-sass": "^1.0.3",
+    "fis-parser-replace": "^1.0.5",
+    "fis-parser-utc": "*",
+    "fis-postprocessor-autoprefixer": "0.0.5",
+    "fis3-lint-eslint-noisy": "*",
+    "fis3-packager-deps-pack": "^0.1.2",
+    "fis3-parser-babel2-strict": "^1.0.0",
+    "fis3-preprocessor-cssspace": "^1.1.1",
+    "log4js": "^0.6.38",
+    "md5": "^2.2.1",
+    "morgan": "^1.6.1",
+    "multer": "^1.3.1",
+    "multiparty": "^4.2.1",
+    "mysql": "^2.15.0",
+    "node-rsa": "0.4.2",
+    "parseurl": "^1.3.2",
+    "postcss": "^6.0.23",
+    "postcss-px2rem": "^0.3.0",
+    "request": "^2.74.0",
+    "serve-favicon": "^2.3.0",
+    "underscore": "^1.8.3",
+    "yog2-kernel": "1.9.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-nodemon": "^2.0.2",
+    "gulp-livereload": "^3.8.0",
+    "gulp-plumber": "^1.0.0"
+  }
+}

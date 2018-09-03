@@ -1,0 +1,12 @@
+.banner-swiper {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 5.0rem;
+}
+
+.banner-swiper img {
+    height: 100%;
+    width: 100%;
+}

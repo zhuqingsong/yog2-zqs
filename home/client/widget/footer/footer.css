@@ -1,0 +1,63 @@
+.footer{
+  height:1.32rem;
+  border-top:1px solid #a6a6a6;
+  position:fixed;
+  bottom:0;
+  left: 0;
+  display: block;
+  width:100%;
+  background-color:#fff;
+  z-index:2;
+}
+.footer ul{
+  display: -webkit-flex;
+  display: flex;
+}
+.footer ul li{
+    flex:1;
+    font-size:0.293333rem;
+    text-align:center;
+}
+.footer ul li a{
+    display:block;
+    height:1.32rem;
+    color:#000;
+    padding-top:.8rem;
+}
+
+.footer ul li a.bg0{
+	background: url(img/f-icon-g.png) no-repeat center 0.16rem;
+	background-size:auto 33%;
+}
+.footer ul li a.bg0-0{
+	background: url(img/f-icon-y.png) no-repeat center 0.16rem;
+	background-size:auto 33%;
+  color:#bf995a;
+}
+.footer ul li a.bg1{
+	background: url(img/f-icon1-g.png) no-repeat center 0.16rem;
+	background-size:auto 33%;
+}
+.footer ul li a.bg1-1{
+	background: url(img/f-icon1-y.png) no-repeat center 0.16rem;
+	background-size:auto 33%;
+  color:#bf995a;
+}
+.footer ul li a.bg2{
+	background: url(img/f-icon2-g.png) no-repeat center 0.16rem;
+	background-size:auto 33%;
+}
+.footer ul li a.bg2-2{
+	background: url(img/f-icon2-y.png) no-repeat center 0.16rem;
+	background-size:auto 33%;
+  color:#bf995a;
+}
+.footer ul li a.bg3{
+	background: url(img/f-icon3-g.png) no-repeat center .1rem;
+	background-size:auto 33%;
+}
+.footer ul li a.bg3-3{
+	background: url(img/f-icon3-y.png) no-repeat center .1rem;
+	background-size:auto 33%;
+  color:#bf995a;
+}

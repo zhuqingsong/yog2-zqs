@@ -1,0 +1,24 @@
+.listen_kc{
+   height:auto;
+   overflow:hidden;
+
+}
+.listen_kc .kc_tit{
+  font-size:.25rem;
+  text-align:left;
+  height:.8rem;
+  line-height:.8rem;
+  background-color:#5e5e5e;
+  color:#fff;
+  padding:0 .3rem;
+}
+
+.listen_Img{
+  padding-bottom:1rem;
+  overflow-y: auto;
+}
+.listen_Img img{
+  width:100%;
+  height:auto;
+  margin-bottom:.1rem;
+}

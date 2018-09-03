@@ -1,0 +1,113 @@
+body {
+    background: url(./img/login-bg.png) no-repeat center center;
+	height:100%;
+}
+
+.login-layout-box {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate( -50%, -50%);
+}
+
+
+.login-form {
+    padding: 123px 50px !important;
+    width: 416px !important;
+    height: 466px !important;
+    box-shadow: none !important;
+    border-radius: 0px 20px 20px 0px !important;
+}
+
+
+
+
+form.layui-form {
+    padding: 0 20px;
+    width: 300px;
+    height: 335px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 50px #009688;
+}
+
+
+.layui-form-item {
+    margin-bottom: 14px;
+    /* clear: both; */
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    -moz-justify-content: space-between;
+    -ms-justify-content: space-between;
+    justify-content: space-between;
+}
+
+
+.layui-form-item {
+    position: relative;
+}
+
+
+.username-input {
+    background: url(./img/user.png) no-repeat;
+    /* background-color: white; */
+    background-position: 3px;
+    padding-left: 30px;
+}
+
+.password-input {
+    background: url(./img/password.png) no-repeat;
+    /* background-color: white; */
+    background-position: 3px;
+    padding-left: 30px;
+}
+
+.login-form input {
+    padding-left: 38px;
+    width: 316px;
+    height: 50px;
+    background-position: 11px;
+}
+
+
+.input-item:nth-child(2) {
+    margin-bottom: 0 !important;
+}
+
+.layui-form-item {
+    position: relative;
+}
+
+
+.login-form .tishi-box {
+    margin: 8px 0 18px;
+    font-size: 14px;
+    color: #F5222D;
+}
+
+
+.login-form .login-btn {
+    width: 316px;
+    height: 60px;
+    background: rgba(0,108,215,1);
+    box-shadow: 0px 6px 10px 0px rgba(77,154,255,0.5);
+    border-radius: 4px;
+}
+
+.layui-block {
+    width: 100% !important;
+}

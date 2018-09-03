@@ -1,0 +1,83 @@
+html, body{
+  height:100%;
+  width:100%;
+}
+
+.m-bg{
+  width:100%;
+  height:100%;
+  background:url('/static/home/static/imgs/service_bg.jpg') no-repeat;
+  background-size:100% 100%;
+}
+
+.m-share-img{
+  width:4.96rem;
+  height:6.46rem;
+  position:absolute;
+  left:50%;
+  top:50%;
+  margin-left:-2.48rem;
+  margin-top:-1.8rem;
+}
+.m-share-img img{
+  width:100%;
+  height:100%;
+}
+
+
+.update-code{
+    width:90%;
+    height:1rem;
+    border-radius:3px;
+    background-color:green;
+    text-align:center;
+    position:absolute;
+    left:5%;
+    bottom:30px;
+    font-size:.33rem;
+    line-height:1rem;
+    color:#fff;
+    border:none;
+}
+
+.m-list{
+    padding:5%;
+    height:100%;
+}
+.m-list ul li  {
+   width:31%;
+   float:left;
+   height:auto;
+   overflow:hidden;
+   margin:0 1%;
+}
+
+.m-list ul li .img-name{
+   width:100%;
+   color:#000;
+   text-align:center;
+   line-height:.4rem;
+   font-size:.24rem;
+   display:block;
+}
+
+
+.m-list ul li img{
+  width:100%;
+  height:auto;
+  display:block;
+}
+
+.m-list ul li .code-btn{
+   width:90%;
+   height:.6rem;
+   line-height: .6rem;
+   text-align:center;
+   color:#fff;
+   background-color:green;
+   font-size:.3rem;
+   margin:.1rem auto .5rem;
+   display:block;
+   border:none;
+   border-radius:3px;
+}

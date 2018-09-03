@@ -1,0 +1,314 @@
+html {
+  height:100%;
+}
+body{
+  height:100%;
+  position:relative;
+}
+.cd_detail_top{
+    height:9.173333rem;
+    width:100%;
+}
+.cd_top{
+    height:5.0rem;
+    width:100%;
+}
+.cd_top img{
+  width:100%;
+  height:100%;
+}
+.cd_title{
+  padding:.26rem .22rem .20rem;
+}
+.cd_title .s1{
+  display:block;
+  font-size: 0.426667rem;
+  line-height:0.426667rem;
+  color:#000;
+}
+.cd_title .s2{
+  display:block;
+  font-size:0.32rem;
+  line-height:.36rem;
+  color:#8d8d8d;
+  margin-top:.22rem;
+}
+.cd_st{
+  width:100%;
+  height:1.44rem;
+  padding:0.266667rem  0.32rem;
+  position:relative;
+  border-top:1px solid #8d8d8d;
+}
+
+.cd_st  .p1{
+  color:#8d8d8d;
+  font-size:0.32rem;
+  text-align:right;
+  line-height:0.48rem;
+}
+
+.cd_st  .p1 em{
+  font-style:normal;
+  color:#f3b397;
+}
+
+
+
+.cd_st .pri{
+   width:auto;
+   height:0.48rem;
+   line-height:0.48rem;
+   position:absolute;
+   left:0.333333rem;
+   bottom:0.373333rem;
+   color:#e82828;
+   display:block;
+   font-size:0.48rem;
+   font-weight:500;
+}
+
+.cd_st .pri i{
+  font-style:normal;
+  color:#cacaca;
+  font-size:0.32rem;
+  font-weight:500;
+  text-decoration:line-through ;
+}
+
+
+.cd_full{
+  height:0.2rem;
+  background-color:#f2f2f2;
+}
+.cd_detail_box{
+  background-color: #f8dbaf;
+  height:1.066667rem;
+  display: flex;
+  position:relative;
+}
+
+.cd_detail_box a{
+  display:block;
+  flex:1;
+  color:#000;
+  text-align:center;
+  font-size: 0.346667rem;
+  line-height: 1.066667rem;
+}
+.cd_detail_box a.active{
+    color:#309be9;
+}
+.cd_detail_box .line{
+    height:2px;
+    background-color:#f2a278;
+}
+
+.cd_detail_content{
+    padding-bottom:1.28rem;
+    overflow-y:auto;
+    position:absolute;
+    left:0;
+    top:9.173333rem;
+    right:0;
+    bottom:0;
+}
+.cd_teach{
+    padding:0.2rem 0.4rem ;
+    overflow:hidden;
+}
+.cd_teach .teach_header{
+    height:1.733333rem;
+    display: flex;
+    width:100%;
+}
+.cd_teach .teach_h{
+    width:1.733333rem;
+    height:1.733333rem;
+    border-radius:1.733333rem;
+    overflow:hidden;
+    margin-right:0.533333rem;
+    display:block;
+}
+.cd_teach .teach_h img{
+    width:100%;
+    height:100%;
+}
+.cd_teach .teach_name{
+    display:block;
+    height:1.733333rem;
+    line-height: 1.733333rem;
+    color:#484747;
+    font-size:0.48rem;
+    flex:1;
+}
+
+.cd_teach .teacher_desc{
+    overflow:hidden;
+    color:#454545;
+    font-size:0.32rem;
+    line-height:1.733333rem;
+}
+
+.cd_course{
+    overflow: hidden;
+}
+
+.cd_course dl {
+    display:block;
+    padding:0.4rem 0.4rem 0.3rem;
+    border-bottom:1px solid #d7d7d7;
+    display:flex;
+}
+
+.cd_course dl dt{
+    width: 0.8rem;
+    font-size:0.346667rem;
+    font-weight:bold;
+    vertical-align:middle;
+    line-height:.8rem;
+    color:#808080;
+}
+.cd_course dl dd{
+    flex:1;
+    overflow:hidden;
+    position:relative;
+}
+.cd_course dl dd:after{
+    content:"";
+    width:0.35rem;
+    height:0.35rem;
+    border-top:1px solid #8d8d8d;
+    border-right:1px solid #8d8d8d;
+    transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    position:absolute;
+    right:0.133333rem;
+    top:.24rem;
+}
+.cd_course dl dd p.time{
+    color:#808080;
+    font-size:0.346667rem;
+    line-height:.4rem;
+}
+.cd_course dl dd p.desc{
+    font-size:0.373333rem;
+    color:#000;
+    margin-top:0.04rem;
+    line-height:.4rem;
+}
+.cd_teach_pay{
+    width:100%;
+    position:absolute;
+    left:0;
+    bottom:0;
+    height:1.28rem;
+    border-top:1px solid #eee;
+    padding:0.266667rem 0.32rem 0.266667rem;
+    background-color: #fff;
+    display:flex;
+}
+.cd_teach_pay .pay_s1{
+    line-height:0.746667rem;
+    display:block;
+    flex:1;
+    color:#ec6941;
+    font-size:0.48rem;
+    color:#e82828;
+}
+.cd_teach_pay .pay_s3{
+    display:block;
+    width:2.0rem;
+    height:0.746667rem;
+    border-radius:0.133333rem;
+    color:#fff;
+    text-align:center;
+    line-height:0.746667rem;
+    font-size:0.346667rem;
+    background-color:#f99152;
+}
+
+.cd_teach_pay .pay_s2{
+    display:block;
+    width:1.306667rem;
+    height:0.746667rem;
+    border-radius:0.133333rem;
+    border:1px solid #fc9c63;
+    color:#fc9c63;
+    text-align:center;
+    line-height:0.746667rem;
+    font-size:0.346667rem;
+    margin-right:0.266667rem;
+}
+
+.cd_teach_info {
+  padding:0.2rem 0;
+  font-size:0.32rem;
+  line-height:.4rem;
+  text-align:left;
+}
+
+.cd_kcinfo{
+  text-align:center;
+  padding: .1rem 0;
+  font-size: 0.32rem;
+  line-height: .4rem;
+}
+
+.zx-mask{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  z-index:2;
+  display:none;
+}
+
+.zx-m{
+  width:100%;
+  height:100%;
+  background-color:#000;
+  opacity:.6;
+}
+.zx-box{
+  position:absolute;
+  bottom:0;
+  left:0;
+  width:100%;
+  height:4.666667rem;
+  z-index:3;
+  background-color:#fff;
+  padding:0.893333rem 0 0.546667rem 1.173333rem;
+}
+.zx-box img {
+  display: block;
+  height:100%;
+  width:auto;
+  float:left;
+  margin-right: 0.346667rem;
+}
+.zx-box .s1{
+  display:block;
+  float:left;
+  font-size:0.346667rem;
+  color:#000;
+  line-height:0.693333rem;
+}
+.zx-box .s1.mt60{
+  margin-top:0.7rem;
+}
+
+.zx-close{
+  width:0.426667rem;
+  height:0.426667rem;
+  position:absolute;
+  bottom:4rem;
+  right:0.4rem; 
+  font-size:0.4rem;
+  z-index:4;
+  text-align:center;
+  line-height: 0.426667rem;
+}

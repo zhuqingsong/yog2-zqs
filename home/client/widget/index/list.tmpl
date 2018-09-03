@@ -1,0 +1,22 @@
+<%
+    for(var i=0; i<kclist.length; i++){
+%>
+
+<a href="/course/detail/<%=kclist[i].id %>/<%=kclist[i].ls_id %>/<%=kclist[i].kc_id %>">
+  <dl>
+      <dt><%=kclist[i].kc_name %> |  <%=kclist[i].kc_st %></dt>
+      <dd class="@lgbox">
+          <span class="@lef">
+              <img src="/static/home/static/imgs/kc_img/<%=kclist[i].kc_show %>">
+          </span>
+          <span class="@rig">
+              线上18课时 不定时答疑课更新已有<em><%=kclist[i].stu_num  %></em> 人学习
+              <h6 class="@pri">￥<%=kclist[i].price * 0.5 %>   <i> ￥<%=kclist[i].price%></i></h6>
+          </span>
+      </dd>
+  </dl>
+</a>
+
+<%
+    }
+%>

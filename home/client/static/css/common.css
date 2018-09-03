@@ -1,0 +1,99 @@
+@font-face {
+	font-family: 'PingFangLightInt';
+	src:url('/static/imgs/PingFangLightInt.ttf?m0ufi6') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* yx-row(r)flex(f) 自适应行 */
+.yx-rf
+{
+	display: flex;
+	width: 100%;
+}
+/* yx-row(r)flex(f)col(c) 自适应列 */
+.yx-rfc
+{
+	flex:1;
+}
+
+/* yx-row(r)table(t) 自适应行 */
+.yx-rt
+{
+	display: table;
+	width: 100%;
+}
+/* yx-row(r)table(t)col(c) 自适应列 */
+.yx-rtc
+{
+	display: table-cell;
+	width: 33.33%;
+	vertical-align: middle;
+}
+
+/*yx-line(l)2 内容显示2行，其余信息使用... */
+.yx-l2
+{
+    word-break: break-all;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+/*隐藏*/
+.hide
+{
+	display: none;
+}
+
+/*标题*/
+.title{
+	display: none;
+}
+
+.full{
+	height:.2rem;
+	background-color:#f6f6f6;
+}
+/*遮罩*/
+.mask{
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background: rgba(0,0,0,.6);
+	top: 0;
+	left: 0;
+	display: none;
+	z-index: 10;
+}
+.head-wrap{
+	width: 100%;
+	line-height: .9rem;
+	text-align: center;
+	color: #272727;
+	font-size: .34rem;
+	background: #f9f9f9;
+	border-bottom: 1px solid #ccc;
+}
+.arrow-l{
+	position: relative;
+	width: .3rem;
+	height: .3rem;
+	display: block;
+}
+.arrow-l:after{
+	content: '';
+	display: block;
+	width: .22rem;
+	height: .22rem;
+	border: 1px solid #ff5a37;
+	transform: rotate(45deg);
+	position: absolute;
+	left: 0;
+	top: 0;
+	border-width: 0 0 1px 1px;
+}
+.active{
+	color: #ff5a37 !important;
+}

@@ -1,0 +1,115 @@
+html, body{
+  width:100%;
+  height:100%;
+  background-color:#f0eff2;
+}
+.u_box{
+  width:100%;
+  position:absolute;
+  top:0;
+  left:0;
+}
+.u_bg{
+  width:100%;
+  height:2.266667rem;
+  background: -webkit-linear-gradient(left, #3FC7FC , #3ca7fc); 
+  background: -o-linear-gradient(right, #3FC7FC , #3ca7fc); 
+  background: -moz-linear-gradient(right, #3FC7FC , #3ca7fc);
+  background: linear-gradient(to right, #3FC7FC , #3ca7fc); 
+  padding:0.133333rem 0.4rem 0; 
+  display:flex;
+}
+.u_tit{
+  width:1.853333rem;
+  height:1.853333rem;
+  border-radius:1.853333rem;
+  overflow:hidden;
+  margin-right:0.293333rem;
+  border:1px solid #fff;
+}
+.u_header{
+    height:0.44rem;
+    flex:1;
+    color:#fff; 
+    font-size:0.426667rem;
+    line-height:.44rem;
+    display:block;
+    margin-top:0.72rem;
+}
+/* .u_header:after{
+  content:'';
+  width:0.4rem;
+  height:0.4rem;
+  border-top:1px solid #fff;
+  border-right:1px solid #fff;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  float:right;
+} */
+.u_tit img{
+    width:100%;
+    height:100%;
+}
+
+.u_center{
+   width:100%;
+   height:100%;
+   padding-top:3.466667rem;
+   padding-bottom:1.333333rem;
+}
+.u_bt{
+   height:1.0rem;
+   line-height: 1rem;
+   padding:0 0.32rem;
+   font-size:0.506667rem;
+   color:#000;
+   margin-bottom:0.2rem;
+   background-color:#fff;
+}
+.u_center ul{
+   width:100%;
+   height:100%;
+   display:block;
+   overflow-y: auto;
+}
+.u_center ul li{
+    background-color:#fff;
+    margin-bottom:0.2rem;
+    padding:0.066667rem 0.32rem 0.133333rem;
+}
+.u_center ul li .bort{
+   height:0.773333rem;
+   line-height:0.773333rem;
+   color:#000;
+   font-size:0.426667rem;
+   border-bottom:1px solid #d2d2d2;
+}
+.u_center .hf-box{
+  display:flex;
+  margin-top:0.106667rem;
+  height:2.053333rem;
+}
+.u_center .hf-img{
+    width:4.133333rem;
+    height:2.053333rem;
+    margin-right:0.2rem;
+    display: block;
+}
+.u_center .hf-img img{
+    width:100%;
+    height:100%;
+}
+.u_center .hf-right{
+   font-size:0.346667rem;
+   line-height: 2.053333rem;
+   color:#000;
+   display: block;
+}
+
+.u_center .hf-right i{
+  font-style:normal;
+  color:#3cacfc;
+}

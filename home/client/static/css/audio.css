@@ -1,0 +1,50 @@
+.audiojs{
+  width:100%;
+  height:76px;
+}
+
+.play-box{
+  display: block;
+  overflow:hidden;
+  height:40px;
+  display:flex;
+}
+
+.audiojs .scrubber{
+  flex:1;
+}
+
+.audiojs .play-pause{
+  padding:0;
+  width:40px;
+}
+
+.audiojs p{
+  width:100%;
+  height:100%;
+}
+
+.audiojs .play{
+  background-position:6px 3px;
+}
+
+.audiojs .pause{
+  background-position:6px -86px;
+}
+
+.audiojs .loading{
+  background-position:6px -27px;
+}
+
+.audiojs .error{
+  background-position:6px -57px;
+}
+
+.audiojs .loaded {
+  width:100%!important;
+}
+
+.audiojs .time{
+  float:none;
+  border:none;
+}
